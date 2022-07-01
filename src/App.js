@@ -1,12 +1,14 @@
 import React from 'react';
-import Texto from './components/Texto'
+import Comment from './components/Comment'
+
 
 function App () {
     return (
-        <div>
-            <h1>THIS IS HARD LEARNING 11TH TIME DOING THIS</h1>
-            <Texto />
-        </div>
+        <>
+            <h1>Monkey D. Luffy</h1>
+            <Comment title="Comentario Um" text='Lorem texto xddd'/>
+            
+        </>
     )
 
 }

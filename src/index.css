@@ -6,4 +6,37 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.comment{
+    margin: 10px;
+    min-width: 500px;
+    padding: 20px;
+    background-color: #444;
+    border: 5px solid chartreuse;
+    border-radius: 1em;
+    box-shadow: 0 0 8px black;
+}
+
+.title {
+    font-size: 1.5em;
+    color: rgb(45, 45, 104);
+    margin-bottom: 20px;
+}
+
+.text{
+    font-size: 1em;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.author{
+    text-align: right;
+    font-size: .8em;
+    color: chartreuse;
 }

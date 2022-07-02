@@ -1,14 +1,12 @@
 import React from 'react'
 
-function Comment (props) {
-    
-    let num = 43523;
-    num = Math.ceil(Math.random()*50);
+function Comment (props){
+
+    let num = 52354;
+    num = Math.ceil(Math.random()*50)
 
     function Maiusculas(texto){
-        return (
-            texto.toUpperCase()
-        )
+        return  texto.toUpperCase()
     }
 
     return (

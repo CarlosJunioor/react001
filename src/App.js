@@ -1,15 +1,15 @@
-import React from 'react';
+import React from 'react'
 import Comment from './components/Comment'
-
 
 function App () {
     return (
         <>
-            <h1>Monkey D. Luffy</h1>
-            <Comment title="Comentario Um" text='Lorem texto xddd'/>
-            
+            <h1>Crypto Cars</h1>
+            <Comment title='Title1' text='Text1' author='txuva1'/>
+            <Comment title='Title2' text='Text2' author='txuva2'/>
+            <Comment title='Title3' text='Text3' author='txuva3'/>
         </>
     )
-
 }
+
 export default App
